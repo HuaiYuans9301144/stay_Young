@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/color1"
+    android:orientation="vertical"
+    tools:context=".MainActivity29">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/backBTN"
+            android:layout_width="30dp"
+            android:layout_height="29dp"
+            android:layout_gravity="center|center_horizontal"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/arrow" />
+
+        <TextView
+            android:id="@+id/scorePage"
+            android:layout_width="218dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:text="@string/ToPageTV"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="204dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="100dp"
+            android:gravity="center"
+            android:text="@string/loction"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/T05"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:gravity="clip_horizontal|center|center_horizontal|center_vertical"
+            android:text="@string/temp"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            />
+
+    <TextView
+        android:id="@+id/T07"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:gravity="clip_horizontal|center|center_horizontal|center_vertical"
+        android:text="@string/cloud"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/T08"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:gravity="clip_horizontal|center|center_horizontal|center_vertical"
+        android:text="紫外線指數：  7"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/T06"
+            android:layout_width="59dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="@string/pmTV"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/T04"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="@string/test＿pm"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/whitesquare"
+        android:fillViewport="false"
+        android:paddingTop="5dp"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarSize="4dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <!--第一個問題-->
+            <LinearLayout
+                android:id="@+id/id1"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/picture1"
+                    android:layout_width="70dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/picture1"
+                    app:srcCompat="@drawable/acne" />
+
+                <TextView
+                    android:id="@+id/score1TV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="22dp"
+                    android:gravity="center"
+                    android:text="@string/s1"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/score1"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="22dp"
+                    android:gravity="center"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!--新加的-->
+            <LinearLayout
+                android:id="@+id/id10"
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+                <ImageView
+                    android:id="@+id/picture10"
+                    android:layout_width="70dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/picture2"
+                    app:srcCompat="@drawable/acne2" />
+
+                <TextView
+                    android:id="@+id/score10TV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginTop="22dp"
+                    android:gravity="center"
+                    android:text="@string/s10"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/score10"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="22dp"
+                    android:gravity="center"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <!--第二個問題-->
+            <LinearLayout
+                android:id="@+id/id2"
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+                <ImageView
+                    android:id="@+id/picture2"
+                    android:layout_width="70dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/picture2"
+                    android:padding="5dp"
+                    app:srcCompat="@drawable/plants" />
+
+                <TextView
+                    android:id="@+id/score2TV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginTop="22dp"
+                    android:gravity="center"
+                    android:text="@string/s2"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/score2"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="22dp"
+                    android:gravity="center"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <!--第三個問題-->
+            <LinearLayout
+                android:id="@+id/id3"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/picture3"
+                    android:layout_width="70dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/picture3"
+                    app:srcCompat="@drawable/orange_crackshield" />
+
+                <TextView
+                    android:id="@+id/score3TV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginTop="22dp"
+                    android:gravity="center"
+                    android:text="@string/s3"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/score3"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="22dp"
+                    android:gravity="center"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <!--第四個問題-->
+            <LinearLayout
+                android:id="@+id/id4"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/picture4"
+                    android:layout_width="70dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/picture4"
+                    app:srcCompat="@drawable/blue_fast_time" />
+
+                <TextView
+                    android:id="@+id/score4TV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginTop="22dp"
+                    android:gravity="center"
+                    android:text="@string/s4"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/score4"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="22dp"
+                    android:gravity="center"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <!--第五個問題-->
+            <LinearLayout
+                android:id="@+id/id5"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/picture5"
+                    android:layout_width="70dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/picture5"
+                    app:srcCompat="@drawable/darkflash" />
+
+                <TextView
+                    android:id="@+id/score5TV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginTop="22dp"
+                    android:gravity="center"
+                    android:text="@string/s5"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/score5"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="22dp"
+                    android:gravity="center"
+                    android:text="@string/score5"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <!--第六個問題-->
+            <LinearLayout
+                android:id="@+id/id6"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/picture6"
+                    android:layout_width="70dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/picture6"
+                    android:padding="1dp"
+                    app:srcCompat="@drawable/dark1" />
+
+                <TextView
+                    android:id="@+id/score6TV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginTop="22dp"
+                    android:gravity="center"
+                    android:text="@string/s6"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/score6"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="22dp"
+                    android:gravity="center"
+                    android:text="@string/score6"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <!--第七個問題-->
+            <LinearLayout
+                android:id="@+id/id7"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/picture7"
+                    android:layout_width="70dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/picture6"
+                    app:srcCompat="@drawable/dark1" />
+
+                <TextView
+                    android:id="@+id/score7TV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginTop="22dp"
+                    android:gravity="center"
+                    android:text="@string/s7"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/score7"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="22dp"
+                    android:gravity="center"
+                    android:text="@string/score7"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <!--第八個問題-->
+            <LinearLayout
+                android:id="@+id/id8"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/picture8"
+                    android:layout_width="70dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/picture8"
+                    app:srcCompat="@drawable/uv_sun" />
+
+                <TextView
+                    android:id="@+id/score8TV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginTop="22dp"
+                    android:gravity="center"
+                    android:text="@string/s8"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/score8"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="22dp"
+                    android:gravity="center"
+                    android:text="@string/score8"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!--第九個問題-->
+            <LinearLayout
+                android:id="@+id/id9"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/picture9"
+                    android:layout_width="70dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/picture9"
+                    app:srcCompat="@drawable/cancer" />
+
+                <TextView
+                    android:id="@+id/score9TV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginTop="22dp"
+                    android:gravity="center"
+                    android:text="@string/s9"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/score9"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="22dp"
+                    android:gravity="center"
+                    android:text="@string/score9"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginBottom="15dp">
+
+        <TextView
+            android:id="@+id/colorTV1"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center|end"
+            android:text="@string/colorTV1"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="236dp"
+            android:layout_height="62dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:contentDescription="@string/colors"
+            app:srcCompat="@drawable/colors" />
+
+        <TextView
+            android:id="@+id/colorTV2"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center|start"
+            android:text="@string/colorTV2"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+</LinearLayout>

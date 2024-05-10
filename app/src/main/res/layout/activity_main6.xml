@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color6"
+    android:orientation="vertical"
+    tools:context=".MainActivity6">
+
+    <TextView
+        android:id="@+id/page22BTN"
+        android:layout_width="248dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="22dp"
+        android:text="@string/setting"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/vibrate"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="30dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="@string/vibrate"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="345dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/whitesquare"
+        android:orientation="vertical">
+
+        <Switch
+            android:id="@+id/vibrate1"
+            android:layout_width="280dp"
+            android:layout_height="58dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="@string/vibrate1"
+            android:textColor="@android:color/background_dark"
+            android:textColorHighlight="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <Switch
+            android:id="@+id/vibrate2"
+            android:layout_width="280dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:text="@string/vibrate2"
+            android:textColor="@android:color/background_dark"
+            android:textCursorDrawable="@color/color6"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/frequency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/frequency"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="345dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/whitesquare"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="280dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="@string/time"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <Spinner
+            android:id="@+id/frequencySpinner"
+            android:layout_width="288dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:entries="@array/frequencySpinner" />
+
+        <TextView
+            android:id="@+id/different"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/different"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <Spinner
+            android:id="@+id/differentSpinner"
+            android:layout_width="282dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:entries="@array/differentSpinner" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/page6BTN"
+        android:layout_width="80dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        android:text="@string/save6"
+        android:textColor="@color/color6"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

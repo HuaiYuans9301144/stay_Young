@@ -1,0 +1,355 @@
+<resources>
+    <string name="app_name">Stay Young</string>
+
+    <string name="welcomeTV">青春有我 - Stay Young</string>
+    <string name="welcomeImage1">TODO</string>
+    <string name="welcomeImage2">TODO</string>
+
+    <string name="ToPage3BTN">肌膚監測站</string>
+    <string name="ToPage4BTN">即時建議</string>
+    <string name="ToPage5BTN">產品資訊</string>
+    <string name="ToPage6BTN">個人化推播設定</string>
+    <string name="ToPage3TV">肌膚監測站</string>
+    <string name="ToPage4TV">即時建議</string>
+    <string name="ToPage5TV">產品資訊</string>
+    <string name="ToPage6TV">個人化提醒模式設定</string>
+    <string name="ToPageTV">膚質危害風險等級</string>
+
+
+    <string name="page3TV">肌膚監測站</string>
+    <string name="q1">毛孔粗大、堵塞的程度</string>
+    <string name="q2">青春痘、泛紅的程度</string>
+    <string name="q3">緊緻度</string>
+    <string name="q4">保濕鎖水的程度</string>
+    <string name="submitBTN">確認</string>
+
+    <string name="page4TV">即時建議</string>
+    <string name="page4BTN">確認</string>
+
+    <string name="page5TV">產品資訊</string>
+    <string name="page5BTN">確認</string>
+
+    <string name="page6TV">設定</string>
+    <string name="push">推播</string>
+    <string name="page6BTN">確認</string>
+    <string name="產品資訊">TODO</string>
+    <string name="setting">個人化提醒模式設定</string>
+    <string name="resultTV">給您的建議：</string>
+    <string name="annoce">請輸入各種膚質狀況(程度越高數值越大):</string>
+    <string name="BRAND">請輸入品牌:</string>
+    <string name="brand">品牌</string>
+    <string name="product">請選擇產品</string>
+    <string name="product1">請選擇所使用的產品類型</string>
+    <string name="protect">皮膚防護等級</string>
+    <string name="protectrank">個人膚質防護評估</string>
+    <string name="airRank">抗空污指數</string>
+    <string name="my_account1">My account</string>
+    <string name="sunRank">抗紫外線指數</string>
+    <string name="textview">TextView</string>
+    <string name="uvidea">UVIDEA 全護臉部清爽防曬系列</string>
+    <string name="htlbutton">連結</string>
+    <string name="backbutton">返回</string>
+    <string name="uvTextView">安得利全護防曬系列</string>
+    <string name="oldTextView">高效分子抗老系列</string>
+    <string name="dermoTextView">多容安系列</string>
+    <string name="allTextView">全日保濕系列</string>
+    <string name="acneTextView">油性皮膚．青春痘系列</string>
+    <string name="prosuctTextView">建議使用產品系列</string>
+    <string name="saveBTN">儲存</string>
+    <string name="productTwxtView">請選擇目前所使用的品類型</string>
+    <string name="nextBTN">下一步</string>
+    <string name="moreBTN">更多</string>
+    <string name="moreBTN2">更多</string>
+    <string name="moreBTN3">更多</string>
+    <string name="moreBTN4">更多</string>
+    <string name="moreBTN5">更多</string>
+    <string name="moreBTN6">更多</string>
+    <string name="p1">全護清透亮顏妝前防曬隔離乳UVA PRO 30ml</string>
+    <string name="p2">全護清爽防曬亮白乳UVA PRO30ml</string>
+    <string name="p3">全護水感清透防曬露 透明30ml</string>
+    <string name="p4">全護清爽防曬液UVA PRO 透明30ml</string>
+    <string name="p5">全護清爽防曬液UVA PRO潤色30ml</string>
+    <string name="p6">全護清爽防曬BB霜 01自然色30ml</string>
+    <string name="p">Button</string>
+    <string name="p7">全護清爽防曬BB霜 02健康色30ml</string>
+    <string name="p8">全護清爽防曬BB霜 03粉嫩色30ml</string>
+    <string name="p9">全護長效清透防曬粉餅SPF30 PA+++</string>
+    <string name="back1">返回</string>
+    <string name="p19">安得利清爽防曬噴霧SPF50 PA++++ 75ml</string>
+    <string name="p20">安得利嬰兒防曬乳SPF50+ 50ml</string>
+    <string name="p21">安得利清爽夏卡防曬噴液SPF50+ 200ml</string>
+    <string name="p22">安得利兒童清爽防曬液 30ml隨身瓶</string>
+    <string name="p23">安得利清透防曬噴霧 50+ 200ml</string>
+    <string name="p24">安得利兒童清爽防曬噴液50+ 200ml</string>
+    <string name="p25">安得利清爽防曬噴液50+ 200ml</string>
+    <string name="p26">安得利溫和極效防曬乳 50ml</string>
+    <string name="p27">安得利清爽極效防曬乳 50ml</string>
+    <string name="p28">安得利清爽極效夏卡防曬液 50ml</string>
+    <string name="back2">返回</string>
+    <string name="p29">C10肌光活膚精華 30ml</string>
+    <string name="p30">B5彈潤修復精華 30ml</string>
+    <string name="p31">B5彈潤修復凝乳 40ml</string>
+    <string name="back3">返回</string>
+    <string name="pp1">清潔</string>
+    <string name="pp2">化妝水</string>
+    <string name="pp3">精華</string>
+    <string name="pp4">乳液面霜</string>
+    <string name="p32">多容安清潔卸妝乳液 400ml</string>
+    <string name="p33">多容安清潔卸妝乳液 200ml</string>
+    <string name="p34">高效溫和眼部卸妝液 125ml</string>
+    <string name="p35">多容安舒敏溫和潔膚乳 400 ml</string>
+    <string name="p36">多容安舒敏溫和潔膚乳 200 ml</string>
+    <string name="p37">多容安泡沫洗面乳 125ml</string>
+    <string name="back4">返回</string>
+    <string name="p38">多容安舒緩保濕化妝水 400ml</string>
+    <string name="p39">多容安舒緩保濕化妝水 200ml</string>
+    <string name="back5">返回</string>
+    <string name="p40">多容安8效舒敏保濕噴霧 100ml (安心水精華)</string>
+    <string name="p41">多容安夜間修護精華乳40ml (安心晚霜)</string>
+    <string name="p42">多容安極效舒緩修護精華乳 潤澤型40ml</string>
+    <string name="p43">多容安極效舒緩修護精華乳 清爽型40ml</string>
+    <string name="p44">多容安極效舒敏眼霜 20ml</string>
+    <string name="back6">返回</string>
+    <string name="p45">多容安舒緩濕潤乳液 40ml (安心乳液)</string>
+    <string name="p46">多容安舒緩保濕面霜40ml</string>
+    <string name="p47">水感保濕清新化妝水 200ml</string>
+    <string name="p48">水感全效超保濕精華 30ml</string>
+    <string name="p49">全日長效玻尿酸保濕修護眼霜 15ml</string>
+    <string name="p50">全日長效玻尿酸修護保濕乳 清爽型50ml</string>
+    <string name="p51">全日長效玻尿酸修護保濕乳 潤澤型50ml</string>
+    <string name="p52">水感超保濕晚安凝膜 75ml</string>
+    <string name="back7">返回</string>
+    <string name="pp5">清潔</string>
+    <string name="pp7">化妝水</string>
+    <string name="pp6">精華</string>
+    <string name="pp8">乳液面霜</string>
+    <string name="back8">返回</string>
+    <string name="p53">清爽控油卸妝潔膚水 400ml</string>
+    <string name="p54">深層控油泡沫洗面乳 125ml</string>
+    <string name="p55">青春潔膚凝膠 200ml</string>
+    <string name="p56">青春潔膚凝膠 400ml</string>
+    <string name="p57">深層淨膚泥面膜 100ml</string>
+    <string name="back9">返回</string>
+    <string name="p58">青春控油調理化妝水 200ml</string>
+    <string name="back10">返回</string>
+    <string name="p59">淨痘無瑕極效精華潤色40ML</string>
+    <string name="p60">淨透煥膚極效精華 40ml</string>
+    <string name="p61">淨痘無瑕極效精華 40ml</string>
+    <string name="p62">青春調理精華乳 15ml</string>
+    <string name="back11">返回</string>
+    <string name="p63">毛孔緊緻控油保濕乳 40ml</string>
+    <string name="back12">返回</string>
+    <string name="vibrate">震動模式：</string>
+    <string name="vibrate1">響鈴時震動</string>
+    <string name="vibrate2">靜音時震動</string>
+    <string name="sound">音效設定：</string>
+    <string name="volume1">音量大小</string>
+    <string name="ring">鈴聲</string>
+    <string name="slient">靜音</string>
+    <string name="frequency">推播頻率：</string>
+    <string name="pushSetting">推播設定</string>
+    <string name="btn22">確認</string>
+    <string name="time">間隔時間</string>
+    <string name="different">等級差異</string>
+    <string name="protectlevel">防護等級</string>
+    <string name="productenter">產品類型</string>
+    <string name="producttitle">產品資訊</string>
+    <string name="title1"> >> UVIDEA 全護臉部清爽防曬系列</string>
+    <string name="title2"> >> 安得利全護防曬系列</string>
+    <string name="title3"> >> 高效分子抗老系列</string>
+    <string name="title4"> >> 多容安系列</string>
+    <string name="title5"><![CDATA[多容安系列>清潔]]></string>
+    <string name="title6"><![CDATA[多容安系列>化妝水]]></string>
+    <string name="title7"><![CDATA[多容安系列>精華]]></string>
+    <string name="title8"><![CDATA[多容安系列>乳液面霜]]></string>
+    <string name="title9"> >> 全日保濕系列</string>
+    <string name="title10"> >> 油性皮膚．青春痘系列</string>
+    <string name="title11"><![CDATA[油性皮膚．青春痘系列 > 清潔]]></string>
+    <string name="title12"><![CDATA[油性皮膚．青春痘系列 > 化妝水]]></string>
+    <string name="title13"><![CDATA[油性皮膚．青春痘系列 > 精華]]></string>
+    <string name="title14"><![CDATA[油性皮膚．青春痘系列 > 乳液面霜]]></string>
+    <string name="sbutton">儲存</string>
+    <string name="ptitle1">建議使用產品系列</string>
+    <string name="commend1">UVIDEA 全護臉部清爽防曬系列</string>
+    <string name="commend2">安得利全護防曬系列</string>
+    <string name="commend3">高效分子抗老系列</string>
+    <string name="commend4">多容安系列</string>
+    <string name="commend5">全日保濕系列</string>
+    <string name="commend6">油性皮膚．青春痘系列</string>
+    <string name="next22">下一步</string>
+    <string name="title23">建議使用產品</string>
+    <string name="next23">下一步</string>
+    <string name="nextt">下一步</string>
+    <string name="saveData">儲存</string>
+    <string name="save6">儲存</string>
+
+    <string-array name="frequencySpinner">
+        <item>0分鐘</item>>
+        <item>10分鐘</item>>
+        <item>20分鐘</item>>
+        <item>30分鐘</item>
+    </string-array>
+    <string-array name="differentSpinner">
+        <item>0</item>
+        <item>1</item>>
+        <item>2</item>>
+        <item>3</item>>
+        <item>4</item>>
+        <item>5</item>>
+        <item>6</item>>
+        <item>7</item>>
+        <item>8</item>>
+        <item>9</item>>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="yesbtn">確定</string>
+    <string name="showdataBTN">Button</string>
+    <string name="showdataBTN1">show</string>
+    <string name="showdata">測試資料庫</string>
+    <string name="pt1">防曬</string>
+    <string name="pt2">化妝水</string>
+    <string name="pt3">乳液面霜</string>
+    <string name="pt4">清潔</string>
+    <string name="pt5">臉部防曬</string>
+    <string name="pt6">安得利防曬</string>
+    <string name="pt7">精華</string>
+    <string name="pt8">全護清爽防曬BB霜 03粉嫩色 30ml</string>
+    <string name="pt9">全護清爽防曬亮白乳UVA PRO 30ml</string>
+    <string name="pt10">全護清透亮顏妝前防曬隔離乳UVA PRO 30ml</string>
+    <string name="pt11">全護清爽防曬液UVA PRO 透明 30ml</string>
+    <string name="pt12">全護水感清透防曬露 透明 30ml</string>
+    <string name="pt13">全護清爽防曬液UVA PRO潤色 30ml</string>
+    <string name="pt14">全護清爽防曬BB霜 02健康色 30ml</string>
+    <string name="pt15">全護清爽防曬BB霜 01自然色 30ml</string>
+    <string name="pt16">全護長效清透防曬粉餅SPF30 PA+++</string>
+    <string name="save1">儲存</string>
+    <string name="save2">確認</string>
+    <string name="ptitle2"><![CDATA[建議使用產品>臉部防曬]]></string>
+    <string name="ptitle">建議使用產品</string>
+    <string name="ptitle3">安得利清爽防曬噴霧SPF50 PA++++ 75ml</string>
+    <string name="pt21"><![CDATA[建議使用產品>安得利防曬]]></string>
+    <string name="pt22">安得利嬰兒防曬乳SPF50+ 50ml</string>
+    <string name="pt23">安得利清爽夏卡防曬噴液SPF50+ 200ml</string>
+    <string name="pt24">安得利兒童清爽防曬液 30ml隨身瓶</string>
+    <string name="pt25">安得利清透防曬噴霧 50+ 200ml</string>
+    <string name="pt26">安得利兒童清爽防曬噴液50+ 200ml</string>
+    <string name="pt27">安得利清爽防曬噴液50+ 200ml</string>
+    <string name="pt28">安得利溫和極效防曬乳 50ml</string>
+    <string name="pt29">安得利清爽極效防曬乳 50ml</string>
+    <string name="pt20">安得利清爽極效夏卡防曬液 50ml</string>
+    <string name="save22">儲存</string>
+    <string name="ptitle33"><![CDATA[建議使用產品>化妝水]]></string>
+    <string name="pt33">多容安舒緩保濕化妝水 400ml</string>
+    <string name="pt31">多容安舒緩保濕化妝水 200ml</string>
+    <string name="pt32">水感保濕清新化妝水 200ml</string>
+    <string name="pt34">青春控油調理化妝水 200ml</string>
+    <string name="save3">儲存</string>
+    <string name="ptitle44"><![CDATA[建議使用產品>清潔]]></string>
+    <string name="save4">儲存</string>
+    <string name="pt41">多容安清潔卸妝乳液 400ml</string>
+    <string name="pt42">多容安清潔卸妝乳液 200ml</string>
+    <string name="pt43">高效溫和眼部卸妝液 125ml</string>
+    <string name="pt44">多容安舒敏溫和潔膚乳 400 ml</string>
+    <string name="pt45">多容安舒敏溫和潔膚乳 200 ml</string>
+    <string name="pt46">多容安泡沫洗面乳 125ml</string>
+    <string name="pt47">清爽控油卸妝潔膚水 400ml</string>
+    <string name="pt48">深層控油泡沫洗面乳 125ml</string>
+    <string name="pt49">青春潔膚凝膠 200ml</string>
+    <string name="pt40">青春潔膚凝膠 400ml</string>
+    <string name="pt401">深層淨膚泥面膜 100ml</string>
+    <string name="ptitle5"><![CDATA[建議使用產品>乳液面霜]]></string>
+    <string name="save5">儲存</string>
+    <string name="pt51">B5彈潤修復凝乳 40ml</string>
+    <string name="pt52">多容安舒緩濕潤乳液 40ml (安心乳液)</string>
+    <string name="pt53">多容安舒緩保濕面霜40ml</string>
+    <string name="pt54">全日長效玻尿酸修護保濕乳 清爽型50ml</string>
+    <string name="pt55">全日長效玻尿酸修護保濕乳 潤澤型50ml</string>
+    <string name="pt56">水感超保濕晚安凝膜 75ml</string>
+    <string name="pt57">毛孔緊緻控油保濕乳 40ml</string>
+    <string name="ptitle6"><![CDATA[建議使用產品>精華]]></string>
+    <string name="save66">C10肌光活膚精華 30ml</string>
+    <string name="pt61">儲存</string>
+    <string name="pt62">B5彈潤修復精華 30ml (B5小藍瓶)</string>
+    <string name="pt63">多容安8效舒敏保濕噴霧 100ml (安心水精華)</string>
+    <string name="pt64">多容安夜間修護精華乳40ml (安心晚霜)</string>
+    <string name="pt65">多容安極效舒緩修護精華乳 潤澤型40ml</string>
+    <string name="pt66">多容安極效舒緩修護精華乳 清爽型40ml</string>
+    <string name="pt67">多容安極效舒敏眼霜 20ml</string>
+    <string name="pt68">水感全效超保濕精華 30ml</string>
+    <string name="pt69">全日長效玻尿酸保濕修護眼霜 15ml</string>
+    <string name="pt60">淨痘無瑕極效精華潤色40ML</string>
+    <string name="pt601">淨透煥膚極效精華 40ml</string>
+    <string name="pt602">淨痘無瑕極效精華 40ml</string>
+    <string name="pt603">青春調理精華乳 15ml</string>
+    <string name="loction">目前位置</string>
+    <string name="todo1">TODO</string>
+
+    <string name="skinPage">肌膚防護等級</string>
+    <string name="skin1">  抗發炎的程度</string>
+    <string name="skin2">  空氣淨化需求度</string>
+    <string name="skin3">  抗敏感的程度</string>
+    <string name="skin4">  抗老化的程度</string>
+    <string name="skin5">  抗刺激性的程度</string>
+    <string name="skin6">  抗黑斑的程度</string>
+    <string name="skin7">  抗紫外線的程度</string>
+    <string name="skin8">  可承受皮膚病變的程度</string>
+    <string name="skin9">  抗粉刺的程度</string>
+
+    <string name="scorePage">程度分析</string>
+    <string name="save29">更新</string>
+    <string name="score1">1</string>
+    <string name="score2">4</string>
+    <string name="score3">8</string>
+    <string name="score4">score4</string>
+    <string name="score5">score5</string>
+    <string name="score6">score6</string>
+    <string name="score7">score7</string>
+    <string name="score8">score8</string>
+    <string name="score9">score9</string>
+    <string name="score10">10</string>
+    <string name="s1">致發炎的程度：</string>
+    <string name="s2">空氣淨化需求度：</string>
+    <string name="s3">致敏感的程度：</string>
+    <string name="s4">致老化的程度：</string>
+    <string name="s5">刺激性的程度：</string>
+    <string name="s6">致黑斑的程度：</string>
+    <string name="s7">致黑斑的程度：</string>
+    <string name="s8">紫外線的程度：</string>
+    <string name="s9">致皮膚病變的程度:</string>
+    <string name="s10">致粉刺的程度:</string>
+
+
+    <string name="notify">notify</string>
+    <string name="colorTV1">輕微</string>
+    <string name="colorTV2">嚴重</string>
+    <string name="colors">TODO</string>
+    <string name="picture4">TODO</string>
+    <string name="picture2">TODO</string>
+    <string name="picture8">picture8</string>
+    <string name="picture9">TODO</string>
+    <string name="picture6">TODO</string>
+    <string name="picture_1">TODO</string>
+    <string name="picture_2">picture_2</string>
+    <string name="picture_3">TODO</string>
+    <string name="picture_4">TODO</string>
+    <string name="picture_7">TODO</string>
+    <string name="picture_6">picture_6</string>
+    <string name="picture_8">picture_8</string>
+    <string name="picture_5">TODO</string>
+    <string name="picture1">TODO</string>
+    <string name="picture3">TODO</string>
+    <string name="picture5">TODO</string>
+
+    <string name="temp">溫度</string>
+    <string name="pm">PM</string>
+    <string name="pmTV">PM2.5:</string>
+    <string name="cloud">多雲</string>
+    <string name="todo">TODO</string>
+    <string name="choose">請選擇目前所使用之產品</string>
+    <string name="history">歷史紀錄</string>
+
+    <string name="test＿pm">14</string>
+    <string name="test＿location">新北市新莊區</string>
+
+
+</resources>

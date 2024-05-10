@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="eec37f">#EEC37F</color>
+    <color name="e99156">#E99156</color>
+    <color name="fff0a8">#FFF0A8</color>
+    <color name="bottomcol">#64B5F6</color>
+    <color name="b">#BBDEFB</color>
+    <color name="bb">#E3F2FD</color>
+    <color name="level1">#FCFDBE</color>
+    <color name="level2">#FEF98F</color>
+    <color name="level3">#FBF75D</color>
+    <color name="level4">#FFF42C</color>
+    <color name="level5">#FFF100</color>
+    <color name="level6">#FFDC00</color>
+    <color name="level7">#FFC200</color>
+    <color name="level8">#FFA800</color>
+    <color name="level9">#FF7900</color>
+    <color name="level10">#E25617</color>
+    <color name="gray">#8B8888</color>
+    <color name="backgroundcolor">#F2E5C7</color>
+    <color name="color1">#99AFF4</color>
+    <color name="color2">#FBBD61</color>
+    <color name="color3">#29577D</color>
+    <color name="color4">#55EEEF</color>
+    <color name="color5">#FFF0E2B2</color>
+    <color name="white">#ffffff</color>
+    <color name="lightpink">#8FFC498F</color>
+    <color name="lightpink2">#FFC5DC</color>
+    <color name="green">#FF77A3</color>>
+    <color name="color6">#43B9E8</color>
+    <color name="color7">#29577D</color>
+
+</resources>

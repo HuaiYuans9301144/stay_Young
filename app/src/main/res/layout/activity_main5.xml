@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:orientation="vertical"
+    tools:context=".MainActivity5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button88"
+            android:layout_width="30dp"
+            android:layout_height="29dp"
+            android:layout_gravity="center|center_horizontal"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/arrow" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="221dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:text="@string/protectrank"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="401dp"
+        android:layout_height="562dp"
+        android:layout_marginBottom="16dp"
+        android:fillViewport="false"
+        android:paddingTop="5dp"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarSize="4dp"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--第一個問題-->
+
+            <LinearLayout
+                android:id="@+id/Q1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/whitesquare"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/picture_1"
+                        android:layout_width="70dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="bottom|center_vertical"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:contentDescription="@string/picture_1"
+                        app:srcCompat="@drawable/acne" />
+
+                    <TextView
+                        android:id="@+id/skin1"
+                        android:layout_width="211dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="bottom|center|start"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center|start"
+                        android:text="@string/skin1"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+
+                    <SeekBar
+                        android:id="@+id/skinSB1"
+                        android:layout_width="291dp"
+                        android:layout_height="28dp"
+                        android:layout_gravity="top"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:max="10"
+                        android:progress="0" />
+
+                    <TextView
+                        android:id="@+id/resultTV1"
+                        android:layout_width="75dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="top"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <Spinner
+                    android:id="@+id/skinSP1"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:spinnerMode="dropdown"
+                    android:text="請選擇建議使用之產品:" />
+
+                <EditText
+                    android:id="@+id/note1"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:focusableInTouchMode="false"
+                    android:hint="備註:"
+                    android:inputType="textMultiLine" />
+
+            </LinearLayout>
+
+            <!--新加的問題-->
+
+            <LinearLayout
+                android:id="@+id/Q2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/whitesquare"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/picture_9"
+                        android:layout_width="70dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="bottom|center_vertical"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:contentDescription="@string/picture_1"
+                        app:srcCompat="@drawable/acne2" />
+
+                    <TextView
+                        android:id="@+id/skin9"
+                        android:layout_width="211dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="bottom|center|start"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center|start"
+                        android:text="@string/skin9"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+
+                    <SeekBar
+                        android:id="@+id/skinSB9"
+                        android:layout_width="291dp"
+                        android:layout_height="28dp"
+                        android:layout_gravity="top"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:max="10"
+                        android:progress="0" />
+
+                    <TextView
+                        android:id="@+id/resultTV10"
+                        android:layout_width="75dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="top"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <Spinner
+                    android:id="@+id/skinSP2"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:spinnerMode="dropdown"
+                    android:text="請選擇建議使用之產品" />
+
+                <EditText
+                    android:id="@+id/note2"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:focusableInTouchMode="false"
+                    android:hint="備註"
+                    android:inputType="textMultiLine" />
+
+            </LinearLayout>
+
+
+            <!--第二個問題-->
+            <LinearLayout
+                android:id="@+id/Q3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/whitesquare"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/picture_2"
+                        android:layout_width="70dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="bottom|center_vertical"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:contentDescription="@string/picture_2"
+                        app:srcCompat="@drawable/plants" />
+
+                    <TextView
+                        android:id="@+id/skin2"
+                        android:layout_width="211dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/skin2"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:orientation="horizontal">
+
+                    <SeekBar
+                        android:id="@+id/skinSB2"
+                        android:layout_width="291dp"
+                        android:layout_height="28dp"
+                        android:layout_gravity="bottom|top"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:max="10"
+                        android:progress="0" />
+
+                    <TextView
+                        android:id="@+id/resultTV2"
+                        android:layout_width="75dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="top"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <Spinner
+                    android:id="@+id/skinSP3"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:spinnerMode="dropdown"
+                    android:text="請選擇建議使用之產品" />
+
+                <EditText
+                    android:id="@+id/note3"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:hint="備註"
+                    android:inputType="textMultiLine" />
+
+            </LinearLayout>
+
+            <!--第三個問題-->
+            <LinearLayout
+                android:id="@+id/Q4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/whitesquare"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/picture_3"
+                        android:layout_width="70dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="bottom|center_vertical"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:contentDescription="@string/picture_3"
+                        app:srcCompat="@drawable/orange_crackshield" />
+
+                    <TextView
+                        android:id="@+id/skin3"
+                        android:layout_width="255dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/skin3"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+
+                    <SeekBar
+                        android:id="@+id/skinSB3"
+                        android:layout_width="291dp"
+                        android:layout_height="28dp"
+                        android:layout_gravity="top"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:max="10"
+                        android:progress="0" />
+
+                    <TextView
+                        android:id="@+id/resultTV3"
+                        android:layout_width="75dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="top"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <Spinner
+                    android:id="@+id/skinSP4"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:spinnerMode="dropdown"
+                    android:text="請選擇建議使用之產品" />
+
+                <EditText
+                    android:id="@+id/note4"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:hint="備註"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+
+            <!--第四個問題-->
+
+            <LinearLayout
+                android:id="@+id/Q5"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/whitesquare"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/picture_4"
+                        android:layout_width="70dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="bottom|center_vertical"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:contentDescription="@string/picture_4"
+                        app:srcCompat="@drawable/blue_fast_time" />
+
+                    <TextView
+                        android:id="@+id/skin4"
+                        android:layout_width="255dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/skin4"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+
+                    <SeekBar
+                        android:id="@+id/skinSB4"
+                        android:layout_width="291dp"
+                        android:layout_height="28dp"
+                        android:layout_gravity="top"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:max="10"
+                        android:progress="0" />
+
+                    <TextView
+                        android:id="@+id/resultTV4"
+                        android:layout_width="75dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="top"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <Spinner
+                    android:id="@+id/skinSP5"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:spinnerMode="dropdown"
+                    android:text="請選擇建議使用之產品" />
+
+                <EditText
+                    android:id="@+id/note5"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:hint="備註"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+
+
+            <!--第五個問題-->
+
+            <LinearLayout
+                android:id="@+id/Q6"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/whitesquare"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/picture_5"
+                        android:layout_width="70dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="bottom|center_vertical"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:contentDescription="@string/picture_5"
+                        app:srcCompat="@drawable/darkflash" />
+
+                    <TextView
+                        android:id="@+id/skin5"
+                        android:layout_width="255dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/skin5"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+
+                    <SeekBar
+                        android:id="@+id/skinSB5"
+                        android:layout_width="291dp"
+                        android:layout_height="28dp"
+                        android:layout_gravity="top"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:max="10"
+                        android:progress="0" />
+
+                    <TextView
+                        android:id="@+id/resultTV5"
+                        android:layout_width="75dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="top"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <Spinner
+                    android:id="@+id/skinSP6"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:spinnerMode="dropdown"
+                    android:text="請選擇建議使用之產品" />
+
+                <EditText
+                    android:id="@+id/note6"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:hint="備註"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+
+
+            <!--第六個問題-->
+            <LinearLayout
+                android:id="@+id/Q7"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/whitesquare"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/picture_6"
+                        android:layout_width="70dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="bottom|center_vertical"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:contentDescription="@string/picture_6"
+                        app:srcCompat="@drawable/dark1" />
+
+                    <TextView
+                        android:id="@+id/skin6"
+                        android:layout_width="255dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/skin6"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+
+                    <SeekBar
+                        android:id="@+id/skinSB6"
+                        android:layout_width="291dp"
+                        android:layout_height="28dp"
+                        android:layout_gravity="top"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:max="10"
+                        android:progress="0" />
+
+                    <TextView
+                        android:id="@+id/resultTV6"
+                        android:layout_width="75dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="top"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <Spinner
+                    android:id="@+id/skinSP7"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:spinnerMode="dropdown"
+                    android:text="請選擇建議使用之產品" />
+
+                <EditText
+                    android:id="@+id/note7"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:hint="備註"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+
+
+            <!--第七個問題-->
+            <LinearLayout
+                android:id="@+id/Q8"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/whitesquare"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/picture_7"
+                        android:layout_width="70dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="bottom|center_vertical"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:contentDescription="@string/picture_7"
+                        app:srcCompat="@drawable/uv_sun" />
+
+                    <TextView
+                        android:id="@+id/skin7"
+                        android:layout_width="255dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/skin7"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+
+                    <SeekBar
+                        android:id="@+id/skinSB7"
+                        android:layout_width="291dp"
+                        android:layout_height="28dp"
+                        android:layout_gravity="top"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:max="10"
+                        android:progress="0" />
+
+                    <TextView
+                        android:id="@+id/resultTV7"
+                        android:layout_width="75dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="top"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <Spinner
+                    android:id="@+id/skinSP8"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:spinnerMode="dropdown"
+                    android:text="請選擇建議使用之產品" />
+
+                <EditText
+                    android:id="@+id/note8"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:hint="備註"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+
+
+            <!--第八個問題-->
+            <LinearLayout
+                android:id="@+id/Q9"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/whitesquare"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/picture_8"
+                        android:layout_width="70dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="bottom|center_vertical"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:contentDescription="@string/picture_8"
+                        app:srcCompat="@drawable/cancer" />
+
+                    <TextView
+                        android:id="@+id/skin8"
+                        android:layout_width="255dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/skin8"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+
+                    <SeekBar
+                        android:id="@+id/skinSB8"
+                        android:layout_width="291dp"
+                        android:layout_height="28dp"
+                        android:layout_gravity="top"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:max="10"
+                        android:progress="0" />
+
+                    <TextView
+                        android:id="@+id/resultTV8"
+                        android:layout_width="75dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="top"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <Spinner
+                    android:id="@+id/skinSP9"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:spinnerMode="dropdown"
+                    android:text="請選擇建議使用之產品" />
+
+                <EditText
+                    android:id="@+id/note9"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:hint="備註"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/page5BTN"
+                android:layout_width="65dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center|top"
+                android:layout_marginBottom="15dp"
+                android:background="@color/white"
+                android:text="@string/save1"
+                android:textColor="@color/green"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
